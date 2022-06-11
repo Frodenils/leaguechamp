@@ -37,13 +37,11 @@
             position: absolute;
             left: 21%;
             display: flex;
-            align-items: center;
             justify-content: center;
             font-size: 20px;
             font-family: monospace;
             font-weight: 1000;
             color: #aaaaaa;
-            writing-mode: vertical-rl;
         }
 
         .container1 .one {
@@ -115,12 +113,12 @@
     </style>
     <br>
     <div class="container1">
-        <div class="one"><img src="images/{{$val1}}Square.webp" width="60" height="60"></div>
-        <div class="two"><img src="images/{{$val2}}Square.webp" width="60" height="60"></div>
-        <div class="three"><img src="images/{{$val3}}Square.webp" width="60" height="60"></div>
-        <div class="four"><img src="images/{{$val4}}Square.webp" width="60" height="60"></div>
-        <div class="five"><img src="images/{{$val5}}Square.webp" width="60" height="60"></div>
-        <div class="six"><img src="images/{{$val6}}Square.webp" width="60" height="60"></div>
+        <div class="one"><img src="images/{{$val1}}Square.webp" width="85" height="85" class="mt-3"></div>
+        <div class="two"><img src="images/{{$val2}}Square.webp" width="85" height="85" class="mt-3"></div>
+        <div class="three"><img src="images/{{$val3}}Square.webp" width="85" height="85" class="mt-3"></div>
+        <div class="four"><img src="images/{{$val4}}Square.webp" width="85" height="85" class="mt-3"></div>
+        <div class="five"><img src="images/{{$val5}}Square.webp" width="85" height="85" class="mt-3"></div>
+        <div class="six"><img src="images/{{$val6}}Square.webp" width="85" height="85" class="mt-3"></div>
     </div>
     <span class="mid"></span>
     <button id="spin">Spin</button>
